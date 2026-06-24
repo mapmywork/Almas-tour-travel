@@ -59,37 +59,37 @@ export const destinations = [
     id: "port-blair",
     title: "Port Blair",
     description: "Historic attractions and beautiful beaches. The gateway to the Andaman Islands.",
-    image: "https://www.andamantravelogues.in/images/1.jpg"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrue4o1mtuqv64czdOM2rY-4WH-7PU5hOLCBi7ndrplspyjCrwZYc_s6g&s=10"
   },
   {
     id: "havelock",
     title: "Havelock Island",
     description: "World famous Radhanagar Beach, crystal clear waters, and amazing scuba diving.",
-    image: "https://www.andamantravelogues.in/images/ho1.jpg"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7FAVMh0dNXLGpUKa98JCbSBnefJvqjBTiazlDz44YiQjuX1oOpKo4gN0&s=10"
   },
   {
     id: "neil",
     title: "Neil Island",
     description: "Relaxing tropical island experience with beautiful natural rock formations.",
-    image: "https://www.andamantravelogues.in/images/ho3.jpg"
+    image: "https://dekhoandaman.com/wp-content/uploads/2023/04/WhatsApp-Image-2023-04-07-at-6.39.16-PM.jpeg"
   },
   {
     id: "ross",
     title: "Ross Island",
     description: "Historical sightseeing and friendly deer wandering freely among ruins.",
-    image: "https://www.andamantravelogues.in/images/ho4.jpg"
+    image: "https://www.andamanisland.in/storage/blogs/180225121340-rosssmithislands.webp"
   },
   {
     id: "baratang",
     title: "Baratang Island",
     description: "Dense mangrove forests, mud volcanoes, and ancient limestone caves.",
-    image: "https://www.andamantravelogues.in/images/pack6.jpg"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwH93lsRtFsKmX-ZSItEyNqa0dGFSwl8YWTeRTdIsNQmQ11ZhETZKsHq-b&s=10"
   },
   {
     id: "north-bay",
     title: "North Bay Island",
     description: "The ultimate destination for water sports, sea walking, and snorkeling.",
-    image: "https://www.andamantravelogues.in/images/pack7.jpg"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz44f8eHaCHM_aFlYa8Dz-QJJzC9UnduI7wGoinWv4eHiaefrBHApF4Gw&s=10"
   }
 ];
 
