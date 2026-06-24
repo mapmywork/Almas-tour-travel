@@ -43,7 +43,7 @@ const Hero = () => {
       {/* Background Image - Andaman Beach Drone Footage Style */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=2000" 
+          src="https://www.andamantravelogues.in/images/1.jpg" 
           alt="Andaman Islands Paradise" 
           className="w-full h-full object-cover object-center"
         />
