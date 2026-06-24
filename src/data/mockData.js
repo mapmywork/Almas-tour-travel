@@ -99,7 +99,7 @@ export const fleet = [
     name: "Toyota Innova Crysta",
     type: "SUV / Family",
     seats: 7,
-    image: "https://www.andamantravelogues.in/images/pack9.jpg",
+    image: "https://res.cloudinary.com/diie1qomt/image/upload/v1779191040/kixfpttqqt8vqc0dvyor.jpg",
     description: "Premium comfort for large families exploring the islands."
   },
   {
@@ -107,7 +107,7 @@ export const fleet = [
     name: "Maruti Suzuki Ertiga",
     type: "MUV / Group",
     seats: 7,
-    image: "https://www.andamantravelogues.in/images/Kalimpong.jpg",
+    image: "https://htcms-prod-images.s3.ap-south-1.amazonaws.com/htmobile1/marutisuzuki_ertiga/images/colour_marutisuzuki-ertiga_pearl-metallic-arctic-white_600x400.jpg",
     description: "Economical and spacious for group sightseeing."
   },
   {
@@ -115,7 +115,7 @@ export const fleet = [
     name: "Mahindra XUV700",
     type: "Luxury SUV",
     seats: 7,
-    image: "https://www.andamantravelogues.in/images/darjeeling.jpg",
+    image: "https://imgd.aeplcdn.com/664x374/n/cw/ec/205104/xuv-7xo-exterior-right-front-three-quarter-547.png?isig=0&q=80",
     description: "High-end luxury travel experience across the islands."
   },
   {
@@ -123,7 +123,7 @@ export const fleet = [
     name: "Maruti Suzuki Swift Dzire",
     type: "Sedan / Couples",
     seats: 4,
-    image: "https://www.andamantravelogues.in/images/gangtok.jpg",
+    image: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Dzire/12186/1771935643542/front-left-side-47.jpg",
     description: "Perfect for couples or small families."
   }
 ];
