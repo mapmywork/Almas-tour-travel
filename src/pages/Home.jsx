@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from '../components/hero/Hero';
 import Destinations from '../components/destinations/Destinations';
 import TourPackages from '../components/packages/TourPackages';
+import WaterSports from '../components/watersports/WaterSports';
 import RentalFleet from '../components/fleet/RentalFleet';
 import WhyChooseUs from '../components/common/WhyChooseUs';
 import Testimonials from '../components/testimonials/Testimonials';
@@ -14,6 +15,7 @@ const Home = () => {
       <Hero />
       <Destinations />
       <TourPackages />
+      <WaterSports />
       <RentalFleet />
       <WhyChooseUs />
       <BookingProcess />

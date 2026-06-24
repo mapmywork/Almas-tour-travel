@@ -166,3 +166,36 @@ export const testimonials = [
     rating: 5
   }
 ];
+
+export const waterSports = [
+  {
+    id: 1,
+    title: "SCUBA DIVING",
+    image: "https://www.andamantravelogues.in/images/lachen.jpg",
+  },
+  {
+    id: 2,
+    title: "BANANA RIDE",
+    image: "https://www.andamantravelogues.in/images/darjeeling.jpg",
+  },
+  {
+    id: 3,
+    title: "SNORKELING",
+    image: "https://www.andamantravelogues.in/images/Kalimpong.jpg",
+  },
+  {
+    id: 4,
+    title: "PARASAILING",
+    image: "https://www.andamantravelogues.in/images/sikkim.jpg",
+  },
+  {
+    id: 5,
+    title: "JET SKI",
+    image: "https://www.andamantravelogues.in/images/gangtok.jpg",
+  },
+  {
+    id: 6,
+    title: "SEA WALKING",
+    image: "https://www.andamantravelogues.in/images/lachung.jpg",
+  }
+];
