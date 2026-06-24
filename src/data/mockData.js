@@ -59,13 +59,13 @@ export const destinations = [
     id: "port-blair",
     title: "Port Blair",
     description: "Historic attractions and beautiful beaches. The gateway to the Andaman Islands.",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrue4o1mtuqv64czdOM2rY-4WH-7PU5hOLCBi7ndrplspyjCrwZYc_s6g&s=10"
+    image: "https://media.istockphoto.com/id/968865840/photo/the-light-house-of-havelock-island-port-blair-andaman-and-nicobar-islands.jpg?s=612x612&w=0&k=20&c=e_mHOyE2deX7VvROFLtG_PqaQs2q1S0zi0XEb2rWRiQ="
   },
   {
     id: "havelock",
     title: "Havelock Island",
     description: "World famous Radhanagar Beach, crystal clear waters, and amazing scuba diving.",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7FAVMh0dNXLGpUKa98JCbSBnefJvqjBTiazlDz44YiQjuX1oOpKo4gN0&s=10"
+    image: "https://media.gettyimages.com/id/1791991389/photo/havelock-island.jpg?s=612x612&w=0&k=20&c=L9QKMCKvxYzsWtPcO4RTvYihd_T_rn7rO95-pzbHFZ8="
   },
   {
     id: "neil",
@@ -77,7 +77,7 @@ export const destinations = [
     id: "ross",
     title: "Ross Island",
     description: "Historical sightseeing and friendly deer wandering freely among ruins.",
-    image: "https://www.andamanisland.in/storage/blogs/180225121340-rosssmithislands.webp"
+    image: "https://t3.ftcdn.net/jpg/02/64/56/32/360_F_264563241_KVeyHshOoLla5Ao7liQuxgZ4QrwbPhGZ.jpg"
   },
   {
     id: "baratang",
