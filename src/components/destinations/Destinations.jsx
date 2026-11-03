@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { MapPin } from 'lucide-react';
-import { destinations } from '../../data/mockData';
+import { destinations, FALLBACK_IMAGE } from '../../data/mockData';
 
 const Destinations = () => {
   return (
@@ -54,6 +54,10 @@ const Destinations = () => {
                 src={dest.image} 
                 alt={dest.title} 
                 className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                onError={(e) => {
+                  e.currentTarget.onerror = null;
+                  e.currentTarget.src = FALLBACK_IMAGE;
+                }}
               />
               
               {/* Gradient Overlay */}

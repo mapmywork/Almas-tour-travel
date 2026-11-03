@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Star, MapPin, Calendar, Users, Phone, Navigation } from 'lucide-react';
-import { businessInfo } from '../../data/mockData';
+import { businessInfo, FALLBACK_IMAGE } from '../../data/mockData';
 
 const TrustBar = () => {
   const features = [
@@ -43,9 +43,13 @@ const Hero = () => {
       {/* Background Image - Andaman Beach Drone Footage Style */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://www.andamantravelogues.in/images/1.jpg" 
+          src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=2000" 
           alt="Andaman Islands Paradise" 
           className="w-full h-full object-cover object-center"
+          onError={(e) => {
+            e.currentTarget.onerror = null;
+            e.currentTarget.src = FALLBACK_IMAGE;
+          }}
         />
         {/* Gradient Overlay for better readability */}
         <div className="absolute inset-0 bg-gradient-to-r from-brand-black/80 via-brand-black/50 to-brand-black/30"></div>

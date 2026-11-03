@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { waterSports } from '../../data/mockData';
+import { waterSports, FALLBACK_IMAGE } from '../../data/mockData';
 
 const WaterSports = () => {
   return (
@@ -36,6 +36,10 @@ const WaterSports = () => {
                 src={sport.image} 
                 alt={sport.title} 
                 className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                onError={(e) => {
+                  e.currentTarget.onerror = null;
+                  e.currentTarget.src = FALLBACK_IMAGE;
+                }}
               />
               
               {/* Subtle Gradient Overlay for Text Readability */}

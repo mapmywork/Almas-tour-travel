@@ -9,13 +9,15 @@ export const businessInfo = {
   workingHours: "24/7 Available"
 };
 
+export const FALLBACK_IMAGE = "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=1000";
+
 export const packages = [
   {
     id: 1,
     title: "Family Package",
     duration: "5 Nights / 6 Days",
     description: "Perfect family vacations with comfortable stays, kid-friendly activities, and easy transportation.",
-    image: "https://www.andamantravelogues.in/images/pack1.jpg",
+    image: "https://images.unsplash.com/photo-1602002418082-a4443e081dd1?auto=format&fit=crop&q=80&w=1000",
     features: ["Family Resort", "All Meals", "Guided Tours", "Airport Transfers"],
     popular: true
   },
@@ -24,7 +26,7 @@ export const packages = [
     title: "Honeymoon Package",
     duration: "4 Nights / 5 Days",
     description: "Romantic island escape featuring luxury beachfront resorts and candlelit beach dinners.",
-    image: "https://www.andamantravelogues.in/images/pack2.jpg",
+    image: "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&q=80&w=1000",
     features: ["Luxury Suite", "Candlelit Dinner", "Private Transfer", "Photoshoot"],
     popular: true
   },
@@ -33,7 +35,7 @@ export const packages = [
     title: "Adventure Package",
     duration: "6 Nights / 7 Days",
     description: "Thrilling water sports, scuba diving, and deep exploration of untouched islands.",
-    image: "https://www.andamantravelogues.in/images/pack3.jpg",
+    image: "https://images.unsplash.com/photo-1682687220063-4742bd7fd538?auto=format&fit=crop&q=80&w=1000",
     features: ["Scuba Diving", "Trekking", "Jet Skiing", "Expert Guides"]
   },
   {
@@ -41,7 +43,7 @@ export const packages = [
     title: "Group Package",
     duration: "3 Nights / 4 Days",
     description: "Affordable and fun group travel plans tailored for friends and corporate teams.",
-    image: "https://www.andamantravelogues.in/images/pack4.jpg",
+    image: "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?auto=format&fit=crop&q=80&w=1000",
     features: ["Group Transport", "Hostel/Hotel", "BBQ Nights", "Group Discounts"]
   },
   {
@@ -49,7 +51,7 @@ export const packages = [
     title: "Customized Package",
     duration: "Flexible",
     description: "Personalized itineraries built completely around your preferences and budget.",
-    image: "https://www.andamantravelogues.in/images/pack5.jpg",
+    image: "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&q=80&w=1000",
     features: ["Tailor Made", "Choose Hotels", "Select Activities", "Personal Advisor"]
   }
 ];
@@ -59,37 +61,37 @@ export const destinations = [
     id: "port-blair",
     title: "Port Blair",
     description: "Historic attractions and beautiful beaches. The gateway to the Andaman Islands.",
-    image: "https://media.istockphoto.com/id/968865840/photo/the-light-house-of-havelock-island-port-blair-andaman-and-nicobar-islands.jpg?s=612x612&w=0&k=20&c=e_mHOyE2deX7VvROFLtG_PqaQs2q1S0zi0XEb2rWRiQ="
+    image: "https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?auto=format&fit=crop&q=80&w=1000"
   },
   {
     id: "havelock",
     title: "Havelock Island",
     description: "World famous Radhanagar Beach, crystal clear waters, and amazing scuba diving.",
-    image: "https://media.gettyimages.com/id/1791991389/photo/havelock-island.jpg?s=612x612&w=0&k=20&c=L9QKMCKvxYzsWtPcO4RTvYihd_T_rn7rO95-pzbHFZ8="
+    image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=1000"
   },
   {
     id: "neil",
     title: "Neil Island",
     description: "Relaxing tropical island experience with beautiful natural rock formations.",
-    image: "https://dekhoandaman.com/wp-content/uploads/2023/04/WhatsApp-Image-2023-04-07-at-6.39.16-PM.jpeg"
+    image: "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&q=80&w=1000"
   },
   {
     id: "ross",
     title: "Ross Island",
     description: "Historical sightseeing and friendly deer wandering freely among ruins.",
-    image: "https://t3.ftcdn.net/jpg/02/64/56/32/360_F_264563241_KVeyHshOoLla5Ao7liQuxgZ4QrwbPhGZ.jpg"
+    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=1000"
   },
   {
     id: "baratang",
     title: "Baratang Island",
     description: "Dense mangrove forests, mud volcanoes, and ancient limestone caves.",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwH93lsRtFsKmX-ZSItEyNqa0dGFSwl8YWTeRTdIsNQmQ11ZhETZKsHq-b&s=10"
+    image: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&q=80&w=1000"
   },
   {
     id: "north-bay",
     title: "North Bay Island",
     description: "The ultimate destination for water sports, sea walking, and snorkeling.",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz44f8eHaCHM_aFlYa8Dz-QJJzC9UnduI7wGoinWv4eHiaefrBHApF4Gw&s=10"
+    image: "https://images.unsplash.com/photo-1544551763-77ef2d0cfc6c?auto=format&fit=crop&q=80&w=1000"
   }
 ];
 
@@ -99,7 +101,7 @@ export const fleet = [
     name: "Toyota Innova Crysta",
     type: "SUV / Family",
     seats: 7,
-    image: "https://res.cloudinary.com/diie1qomt/image/upload/v1779191040/kixfpttqqt8vqc0dvyor.jpg",
+    image: "https://imgd.aeplcdn.com/1920x1080/n/cw/ec/222736/innova-crysta-2026-exterior-right-front-three-quarter-8.jpeg?isig=0&q=80&q=80",
     description: "Premium comfort for large families exploring the islands."
   },
   {
@@ -128,20 +130,17 @@ export const fleet = [
   }
 ];
 
-// Placeholder for 30+ images
-export const galleryImages = Array.from({ length: 12 }).map((_, i) => {
-  const images = [
-    "https://www.andamantravelogues.in/images/1.jpg",
-    "https://www.andamantravelogues.in/images/ho1.jpg",
-    "https://www.andamantravelogues.in/images/pack1.jpg",
-    "https://www.andamantravelogues.in/images/pack2.jpg",
-    "https://www.andamantravelogues.in/images/pack3.jpg",
-    "https://www.andamantravelogues.in/images/pack4.jpg",
-    "https://www.andamantravelogues.in/images/pack5.jpg",
-    "https://www.andamantravelogues.in/images/ho3.jpg",
-  ];
-  return images[i % images.length];
-});
+// Gallery Images
+export const galleryImages = [
+  "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800",
+  "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=800",
+  "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&q=80&w=800",
+  "https://images.unsplash.com/photo-1602002418082-a4443e081dd1?auto=format&fit=crop&q=80&w=800",
+  "https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?auto=format&fit=crop&q=80&w=800",
+  "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&q=80&w=800",
+  "https://images.unsplash.com/photo-1559310589-2673bfe16970?auto=format&fit=crop&q=80&w=800",
+  "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&q=80&w=800",
+];
 
 export const testimonials = [
   {
@@ -171,31 +170,31 @@ export const waterSports = [
   {
     id: 1,
     title: "SCUBA DIVING",
-    image: "https://www.andamantravelogues.in/images/lachen.jpg",
+    image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=1000",
   },
   {
     id: 2,
     title: "BANANA RIDE",
-    image: "https://www.andamantravelogues.in/images/darjeeling.jpg",
+    image: "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&q=80&w=1000",
   },
   {
     id: 3,
     title: "SNORKELING",
-    image: "https://www.andamantravelogues.in/images/Kalimpong.jpg",
+    image: "https://images.unsplash.com/photo-1544551763-77ef2d0cfc6c?auto=format&fit=crop&q=80&w=1000",
   },
   {
     id: 4,
     title: "PARASAILING",
-    image: "https://www.andamantravelogues.in/images/sikkim.jpg",
+    image: "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&q=80&w=1000",
   },
   {
     id: 5,
     title: "JET SKI",
-    image: "https://www.andamantravelogues.in/images/gangtok.jpg",
+    image: "https://images.unsplash.com/photo-1559310589-2673bfe16970?auto=format&fit=crop&q=80&w=1000",
   },
   {
     id: 6,
     title: "SEA WALKING",
-    image: "https://www.andamantravelogues.in/images/lachung.jpg",
+    image: "https://images.unsplash.com/photo-1682687220198-88e9bdea9931?auto=format&fit=crop&q=80&w=1000",
   }
 ];

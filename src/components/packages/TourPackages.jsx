@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Clock, Check, Star } from 'lucide-react';
-import { packages } from '../../data/mockData';
+import { packages, FALLBACK_IMAGE } from '../../data/mockData';
 
 const TourPackages = () => {
   return (
@@ -59,6 +59,10 @@ const TourPackages = () => {
                   src={pkg.image} 
                   alt={pkg.title} 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  onError={(e) => {
+                    e.currentTarget.onerror = null;
+                    e.currentTarget.src = FALLBACK_IMAGE;
+                  }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                 

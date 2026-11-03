@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Users, Car, Phone, Navigation } from 'lucide-react';
-import { fleet, businessInfo } from '../../data/mockData';
+import { fleet, businessInfo, FALLBACK_IMAGE } from '../../data/mockData';
 
 const RentalFleet = () => {
   return (
@@ -65,7 +65,12 @@ const RentalFleet = () => {
                 <img 
                   src={vehicle.image} 
                   alt={vehicle.name} 
+                  referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  onError={(e) => {
+                    e.currentTarget.onerror = null;
+                    e.currentTarget.src = FALLBACK_IMAGE;
+                  }}
                 />
               </div>
 
