@@ -43,7 +43,7 @@ const RentalFleet = () => {
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
           >
-            <a href={`https://wa.me/${businessInfo.phone1Raw}`} className="inline-flex items-center gap-2 text-brand-ocean font-bold uppercase tracking-wider text-sm hover:text-blue-700 transition-colors group bg-brand-ocean/10 px-6 py-3 rounded-full">
+            <a href={`https://wa.me/${businessInfo.whatsappRaw || businessInfo.phone1Raw}`} className="inline-flex items-center gap-2 text-brand-ocean font-bold uppercase tracking-wider text-sm hover:text-blue-700 transition-colors group bg-brand-ocean/10 px-6 py-3 rounded-full">
               Book Instantly <Navigation size={16} className="group-hover:translate-x-1 transition-transform" />
             </a>
           </motion.div>

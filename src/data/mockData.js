@@ -1,7 +1,9 @@
 export const businessInfo = {
   name: "ALMAS TOUR & TRAVEL",
-  phone1: "+91 7866886008",
-  phone1Raw: "917866886008",
+  whatsapp: "+91 9476012356",
+  whatsappRaw: "919476012356",
+  phone1: "+91 9476012356",
+  phone1Raw: "919476012356",
   phone2: "+91 9531954006",
   phone2Raw: "919531954006",
   email: "umarf007860@gmail.com",

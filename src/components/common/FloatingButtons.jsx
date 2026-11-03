@@ -26,7 +26,7 @@ const FloatingButtons = () => {
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
         whileHover={{ scale: 1.1 }}
-        href={`https://wa.me/${businessInfo.phone1Raw}`}
+        href={`https://wa.me/${businessInfo.whatsappRaw || businessInfo.phone1Raw}`}
         target="_blank"
         rel="noreferrer"
         className="w-14 h-14 rounded-full bg-[#25D366] text-white flex items-center justify-center shadow-lg shadow-[#25D366]/40 relative group"
