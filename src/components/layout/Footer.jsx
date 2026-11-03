@@ -78,9 +78,10 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3 text-gray-400 text-sm">
                 <Phone size={18} className="text-brand-sunset shrink-0" />
-                <div className="flex flex-col">
+                <div className="flex flex-col gap-1">
                   <a href={`tel:${businessInfo.phone1Raw}`} className="hover:text-white transition-colors">{businessInfo.phone1}</a>
                   <a href={`tel:${businessInfo.phone2Raw}`} className="hover:text-white transition-colors">{businessInfo.phone2}</a>
+                  <a href={`https://wa.me/${businessInfo.whatsappRaw}`} target="_blank" rel="noreferrer" className="hover:text-[#25D366] transition-colors">{businessInfo.whatsapp} (WhatsApp)</a>
                 </div>
               </li>
               <li className="flex items-center gap-3 text-gray-400 text-sm">

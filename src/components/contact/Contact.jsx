@@ -63,12 +63,15 @@ const Contact = () => {
                   <Phone size={20} />
                 </div>
                 <div className="flex flex-col">
-                  <h4 className="font-bold text-brand-black mb-1">Call Us</h4>
+                  <h4 className="font-bold text-brand-black mb-1">Call & WhatsApp</h4>
                   <a href={`tel:${businessInfo.phone1Raw}`} className="text-gray-500 text-sm hover:text-brand-ocean transition-colors">
-                    {businessInfo.phone1}
+                    {businessInfo.phone1} (Contact)
                   </a>
                   <a href={`tel:${businessInfo.phone2Raw}`} className="text-gray-500 text-sm hover:text-brand-ocean transition-colors mt-1">
                     {businessInfo.phone2}
+                  </a>
+                  <a href={`https://wa.me/${businessInfo.whatsappRaw}`} target="_blank" rel="noreferrer" className="text-gray-500 text-sm hover:text-brand-ocean transition-colors mt-1 flex items-center gap-1.5">
+                    {businessInfo.whatsapp} <span className="text-[11px] font-semibold text-[#25D366] bg-green-50 px-2 py-0.5 rounded-full">WhatsApp</span>
                   </a>
                 </div>
               </div>

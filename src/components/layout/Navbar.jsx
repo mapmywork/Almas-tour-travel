@@ -29,7 +29,7 @@ const Navbar = () => {
       <div className="hidden md:flex bg-brand-ocean text-white text-xs py-2 px-6 justify-between items-center z-50 relative">
         <div className="flex items-center gap-4">
           <span className="flex items-center gap-1"><MapPin size={12} /> South Andaman, India</span>
-          <span className="flex items-center gap-1"><Phone size={12} /> {businessInfo.phone1}</span>
+          <span className="flex items-center gap-1"><Phone size={12} /> {businessInfo.phone1} / {businessInfo.phone2}</span>
         </div>
         <div>
           <span>{businessInfo.workingHours}</span>
